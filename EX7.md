@@ -40,6 +40,8 @@ class BTree:
       temp.child.insert(0, root)
       self.split_child(temp, 0)
       self.insert_non_full(temp, k)
+```
+```
     else:
       self.insert_non_full(root, k)
 
